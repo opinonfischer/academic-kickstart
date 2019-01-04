@@ -1,0 +1,74 @@
++++
+title = "Flexible Multi-Disciplinary Environment for Performance, Life-Cycle Cost, and Safety Evaluation of Suborbital Vehicles"
+date = 2018-06-01T00:00:00
+draft = false
+
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = ["C.P. Frank", "O.J. Pinon Fischer", "D.N. Mavris"]
+
+# Publication type.
+# Legend:
+# 0 = Uncategorized
+# 1 = Conference paper
+# 2 = Journal article
+# 3 = Manuscript
+# 4 = Report
+# 5 = Book
+# 6 = Book section
+publication_types = ["2"]
+
+# Publication name and optional abbreviated version.
+publication = "In *Aerospace Science and Technology, Volume 77, Pages 555-562*"
+publication_short = ""
+
+# Abstract and optional shortened version.
+abstract = ""
+#Suborbital vehicles are innovative and unconventional aerospace concepts that are characterized by a high level of complexity and a lack of optimized baseline. The present focuses on the development of a flexible multi-objective modeling and simulation environment that provides the capabilities to rapidly evaluate the flying, economic, and safety performance of suborbital vehicles at a conceptual design level. One of the goals of this environment is to enable the exploration of large design spaces and facilitate the mapping between high-level requirements and the identified optimized concept. The environment is broken down into six modules: weight/size, aerodynamics, trajectory, propulsion, economics, and safety. By leveraging empirical models, physics-based approaches, and surrogate modeling techniques, it enables the rapid and parametric assessment and optimization of a multitude of design concepts. It is the first environment of this sort to support informed design space exploration of suborbital vehicles and allow for new trends to be identified and crucial observations to be made.
+abstract_short = ""
+
+# Is this a selected publication? (true/false)
+selected = true
+
+# Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["deep-learning"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects = []
+
+# Tags (optional).
+#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+tags = []
+
+# Links (optional).
+url_pdf = "https://www.sciencedirect.com/science/article/pii/S1270963818305157/pdfft?md5=cb4abcbb9bd11c941a0ec77f6e9983cd&pid=1-s2.0-S1270963818305157-main.pdf"
+#url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
+#url_code = "#"
+#url_dataset = "#"
+#url_project = ""
+#url_slides = "#"
+#url_video = "#"
+#url_poster = "#"
+#url_source = "#"
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+#url_custom = [{name = "Custom Link", url = "http://example.org"}]
+
+# Digital Object Identifier (DOI)
+doi = "10.1016/j.ast.2018.03.017"
+
+# Does this page contain LaTeX math? (true/false)
+math = true
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
++++
