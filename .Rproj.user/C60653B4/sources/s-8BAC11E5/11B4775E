@@ -9,11 +9,11 @@
     "id" : "11B4775E",
     "lastKnownWriteTime" : 1546585265,
     "last_content_update" : 1546585265440,
-    "path" : "~/OliviaFischerWebsite/config.toml",
+    "path" : "~/academic-kickstart/config.toml",
     "project_path" : "config.toml",
     "properties" : {
         "cursorPosition" : "186,21",
-        "scrollLine" : "165"
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,
