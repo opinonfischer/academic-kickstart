@@ -72,7 +72,7 @@ a:focus {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: rgb(127,140,180);
+  color: rgb(7,91,146);
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -82,7 +82,7 @@ a:focus {
 .dropdown-menu > .active > a:hover {
   color: #fff;
   text-decoration: none;
-  background-color: rgb(127,140,180);
+  background-color: rgb(7,91,146);
   outline: 0;
 }
 

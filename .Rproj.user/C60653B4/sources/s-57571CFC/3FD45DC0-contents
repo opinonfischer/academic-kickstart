@@ -1,21 +1,7 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
-
-# The URL of your website.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
-
-# Title of your site
-title = "OLIVIA PINON FISCHER"
-
-# Your copyright notice - appears in site footer.
-# To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
-
-theme = "hugo-academic"
+baseurl = "http://glciampaglia.com/"  # End your URL with a `/` trailing slash.
+title = "Giovanni Luca Ciampaglia"
+copyright = "&copy; 2018 Giovanni Luca Ciampaglia"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -26,7 +12,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-45616511-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -34,47 +20,41 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = false
-      
+enableGitInfo = true
+
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
+#   See: https://gohugo.io/readfiles/bfconfig/
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
-  extensions = ["backslashLineBreak"]
 
 [params]
-  # AUTHOR SETUP
+  # AUTHOR SETUP 
 
   # Your details.
-  name = "Olivia Pinon Fischer"
-  role = "Senior Research Engineer"#<br>"Digital Engineering Division, Chief"
+  name = "Giovanni Luca Ciampaglia"
+  role = "Assistant Professor"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Georgia Institute of Technology", url = "www.ae.gatech.edu" } ]
+  organizations = [ { name = "University of South Florida", url = "http://usf.edu/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "giovanni_avatar.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "olivia.pinon@ae.gatech.edu "
-  address = "Weber Building, Room 113, Georgia Institute of Technology, School of Aerospace Engineering, Atlanta, GA, 30332-0150, U.S.A"
-  office_hours = """
-  Email to book an appointment
-  """
-  #phone = "888 888 88 88"
-  #skype = "echo123"
-  #telegram = ""
-  keybase = ""  # Your keybase.io username.
-
-  # Enter an optional link for booking appointments (e.g. calendly.com).
-  appointment_url = ""
+  email = "glc3@mail.usf.edu"
+  address = "4202 E. Fowler Avenue, ENB 118, Tampa, FL 33620, USA"
+  office_hours = ""
+  phone = "+1 (813) 396-9349"
+  skype = "glcwork"
+  telegram = ""
+  keybase = ""  # Your keybase.io username
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -104,14 +84,12 @@ enableGitInfo = false
   # SITE SETUP
 
   # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "default"
-  # Enable users to switch between day and night mode?
-  day_night = true
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, `1950s`, or `dark`.
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "classic"
+  font = "playfair"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
   description = ""
@@ -128,7 +106,7 @@ enableGitInfo = false
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Jan 2, 2006"
+  date_format = "Mon, Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
   time_format = "3:04 PM"
 
@@ -138,7 +116,7 @@ enableGitInfo = false
   # Display comment count? Requires commenting to be enabled.
   comment_count = true
 
-  # Display next/previous section pager?
+  # Display section pager for posts?
   section_pager = false
 
   # Enable global LaTeX math rendering?
@@ -175,7 +153,7 @@ enableGitInfo = false
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Privacy pack
   #   Show a cookie consent message to visitors
@@ -184,7 +162,7 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["blue.css"]
+  custom_css = ["style.css"]
   custom_js  = []
 
   # Publication types.
@@ -195,13 +173,13 @@ enableGitInfo = false
   #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
   #   translated.
   publication_types = [
-    'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
-    'Book',  # 5
-    'Book section'  # 6
+    'uncategorized',  # 0
+    'conference proceedings',  # 1
+    'journal',  # 2
+    'work in progress',  # 3
+    'technical report',  # 4
+    'book',  # 5
+    'book chapter'  # 6
   ]
 
   # Configuration of talk pages.
@@ -211,7 +189,7 @@ enableGitInfo = false
 
   # Configuration of publication pages.
   [params.publications]
-    # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+    # Date format (refer to Go's date format: http://flippinggodateformat.com )
     #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
     date_format = "January, 2006"
 
@@ -220,25 +198,14 @@ enableGitInfo = false
     # List publications and talks related to the project?
     list_children = true
 
-    # Post list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = Stream
-    post_format = 2
+  # Publication list format.
+  #   0 = Simple
+  #   1 = Detailed
+  #   2 = APA
+  #   3 = MLA
+  #   4 = Stream
+  publication_format = 4
 
-    # Publication list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = APA
-    #   3 = MLA
-    #   4 = Stream
-    publication_format = 4
-
-    # Talk list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = Stream
-    talk_format = 2
 
   # Social/Academic Networking
   #
@@ -262,33 +229,54 @@ enableGitInfo = false
     icon = "envelope"
     icon_pack = "fas"
     link = "#contact"  # For a direct email link, use "mailto:test@example.org".
-    
-  [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fab"
-    link = "https://www.linkedin.com/in/oliviapinonfischer/"  # For a direct email link, use "mailto:test@example.org".
+    # link = "http://scr.im/glcmail"
 
-  #[[params.social]]
-  #  icon = "twitter"
-  #  icon_pack = "fab"
-  #  link = "https://twitter.com/GeorgeCushen"
+#   [[params.social]]
+#     icon = "twitter"
+#     icon_pack = "fab"
+#     link = "https://twitter.com/GeorgeCushen"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.com/citations?user=rc-60LMAAAAJ&hl=en"
+    link = "//scholar.google.com/citations?user=ay9uGpcAAAAJ"
 
-  #[[params.social]]
-  #  icon = "github"
-  #  icon_pack = "fab"
-  #  link = "https://github.com/gcushen"
+#   [[params.social]]
+#     icon = "arxiv"
+#     icon_pack = "ai"
+#     link = "https://arxiv.org/search/?searchtype=author&query=Ciampaglia%2C+G+L"
+# 
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fab"
+    link = "//github.com/glciampaglia"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "//www.linkedin.com/in/giovanni-luca-ciampaglia-94101348"
+
+#   [[params.social]]
+#     icon = "calendar"
+#     icon_pack = "fas"
+#     link = "//doodle.com/glciampaglia"
+# 
+#   [[params.social]]
+#     icon = "wikipedia-w"
+#     icon_pack = "fab"
+#     link = "//en.wikipedia.org/wiki/User:Junkie.dolphin"
+
+#   [[params.social]]
+#     icon = "orcid"
+#     icon_pack = "ai"
+#     link = "//orcid.org/0000-0001-5354-9257"
+# 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-   [[params.social]]
-     icon = "cv"
-     icon_pack = "ai"
-     link = "files/cv.pdf"
+  [[params.social]]
+    icon = "cv"
+    icon_pack = "ai"
+    link = "docs/cv-glc.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -305,35 +293,38 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "#publications"
   weight = 2
 
-#[[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 3
+[[menu.main]]
+   name = "Resume"
+   url = "/docs/cv-glc.pdf"
+   weight = 2.5
 
 [[menu.main]]
-  name = "Research"
-  url = "#projects"
+  name = "News"
+  url = "#news"
   weight = 3
 
-#[[menu.main]]
-#  name = "Tutorials"
-#  url = "/tutorial/"
-#  weight = 5
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
+
+[[menu.main]]
+  name = "Press"
+  url = "press"
+  weight = 5
+
+[[menu.main]]
+ name = "Teaching"
+ url = "#teaching"
+ weight = 6
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 4
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
- [[menu.main]]
-    name = "CV"
-    url = "files/cv.pdf"
-    weight = 5
+  weight = 7
 
 # Search.
 [params.search]

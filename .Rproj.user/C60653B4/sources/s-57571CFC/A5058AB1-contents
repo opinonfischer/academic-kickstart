@@ -45,8 +45,8 @@ year = 2000
  
 +++
 
-# Biography
+# Bio
 
-I am a Senior Research Engineer in the School of Aerospace Engineering at the Georgia Institute of Technology and the Chief of the [Aerospace Systems Design Laboratory (ASDL)](http://www.asdl.gatech.edu)’s Digital Engineering division. I lead research in the areas of manufacturing‐influenced design, digital factory, digital twin/digital thread, automated knowledge extraction and representation, technology prioritization, aircraft and UAV/UAS affordability-based design, data fusion, machine learning, and data/visual analytics. I am particularly motivated by advances in Artificial Intelligence and Machine Learning to support the development of digital ecosystems and address problems in engineering and air transportation. 
+I am a Senior Research Engineer in the School of Aerospace Engineering at the Georgia Institute of Technology and the Chief of the [Aerospace Systems Design Laboratory (ASDL)](http://www.asdl.gatech.edu)’s Digital Engineering division. I lead research in the areas of manufacturing‐influenced design, digital factory, digital twin/digital thread, automated knowledge extraction and representation, technology prioritization, aircraft and UAV/UAS affordability-based design, data fusion, machine learning, and data/visual analytics. I am particularly motivated by advances in Artificial Intelligence and Machine Learning to support the development of digital ecosystems and address challenges in engineering and air transportation. 
 
 A copy of CV can be found [here](files/cv.pdf).

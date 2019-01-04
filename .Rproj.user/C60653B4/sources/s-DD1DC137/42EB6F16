@@ -1,18 +1,18 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1546572239846.000,
+    "created" : 1546599107301.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "11B4775E",
-    "lastKnownWriteTime" : 1546585265,
-    "last_content_update" : 1546585265440,
+    "id" : "42EB6F16",
+    "lastKnownWriteTime" : 1546597641,
+    "last_content_update" : 1546597641,
     "path" : "~/academic-kickstart/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "186,21",
+        "cursorPosition" : "12,0",
         "scrollLine" : "0"
     },
     "relative_order" : 1,
