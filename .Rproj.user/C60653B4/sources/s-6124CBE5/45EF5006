@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "843019500",
+    "hash" : "318741793",
     "id" : "45EF5006",
-    "lastKnownWriteTime" : 1546599439,
-    "last_content_update" : 1546599439954,
+    "lastKnownWriteTime" : 1546654432,
+    "last_content_update" : 1546654432472,
     "path" : "~/academic-kickstart/content/home/experience.md",
     "project_path" : "content/home/experience.md",
     "properties" : {
-        "cursorPosition" : "23,44",
-        "scrollLine" : "13"
+        "cursorPosition" : "3,14",
+        "scrollLine" : "0"
     },
     "relative_order" : 4,
     "source_on_save" : false,

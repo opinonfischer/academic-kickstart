@@ -1,10 +1,10 @@
 +++
-title = "Evolutionary Multi-Objective Multi-Architecture Design Space Exploration Methodology, Optimization and Engineering"
-date = 2018-01-01T00:00:00
+title = "Design Methodology for the Performance, Weight, and Economic Assessment of Chemical Rocket Engines"
+date = 2016-01-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["C.P. Frank", "R.A. Marlier", "O.J. Pinon Fischer", "D.N. Mavris"]
+authors = ["C.P. Frank", "O.J. Pinon Fischer", "D.N. Mavris", "C.M. Tyl"]
 
 # Publication type.
 # Legend:
@@ -18,12 +18,12 @@ authors = ["C.P. Frank", "R.A. Marlier", "O.J. Pinon Fischer", "D.N. Mavris"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Optimization and Engineering, Volume 19, Issue 2, pp 359-381*"
+publication = "In *Journal of Aerospace Engineering, Volume 30, Issue 1*"
 publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = ""
-#The design of revolutionary aerospace vehicles is characterized by large design spaces, a lack of established baselines, and some uncertainty in the design and regulatory requirements that such vehicles will need to meet. A new evolutionary multi-architecture multi-objective optimization algorithm is presented to support design concept selection when faced with such challenges. The proposed approach allows designers to efficiently and exhaustively generate variable-oriented architectures that can be further optimized and compared. It provides a dynamic decision-making environment able to identify trends and trade-offs, and prioritize designs. The application of the proposed methodology to suborbital vehicles highlights key promising technological enablers, which can be leveraged to design high-performance and robust concepts.
+#A design methodology is presented that supports the design of future aerospace rocket-powered vehicles. In particular, it provides the capabilities to rapidly evaluate the performance, weight, size, and lifecycle costs of all chemical rocket engines at a conceptual level. By leveraging cycle-based approaches and surrogate modeling techniques, the performance of all chemical rocket engines can be evaluated with an accuracy of 3%, whereas it divides the execution time by a factor of 105 compared to current physics-based models. New mass-estimating relationships are developed for estimating the weight and the size of solid engines with an improved accuracy compared to existing models. Physics-based models built around the key design drivers are used for the weight and size estimation of liquid and hybrid engines. Although existing cost-estimating relationships are used to evaluate the lifecycle costs of solid and liquid engines, a more physics-based model is developed for hybrid engines. Although it supports complex multiobjective optimizations and rapid trade-off analyses, this environment is also the first of its sort able to estimate the lifecycle costs of hybrid rocket engines.
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
@@ -42,7 +42,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://link.springer.com/content/pdf/10.1007%2Fs11081-018-9373-x.pdf"
+url_pdf = "https://ascelibrary.org/doi/full/10.1061/%28ASCE%29AS.1943-5525.0000668"
 #url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
 #url_code = "#"
 #url_dataset = "#"
@@ -57,7 +57,7 @@ url_pdf = "https://link.springer.com/content/pdf/10.1007%2Fs11081-018-9373-x.pdf
 #url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = "10.1007/s11081-018-9373-x"
+doi = "10.1061/(ASCE)AS.1943-5525.0000668"
 
 # Does this page contain LaTeX math? (true/false)
 math = true

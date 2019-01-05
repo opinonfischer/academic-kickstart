@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "42EB6F16",
-    "lastKnownWriteTime" : 1546597641,
-    "last_content_update" : 1546597641,
+    "lastKnownWriteTime" : 1546661540,
+    "last_content_update" : 1546661540418,
     "path" : "~/academic-kickstart/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "35,0",
-        "scrollLine" : "19"
+        "cursorPosition" : "64,19",
+        "scrollLine" : "54"
     },
     "relative_order" : 1,
     "source_on_save" : false,

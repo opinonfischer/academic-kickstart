@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1546599389318.000,
+    "created" : 1546658739144.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3085605407",
-    "id" : "D7EF5426",
-    "lastKnownWriteTime" : 1546599396,
-    "last_content_update" : 1546599396875,
+    "hash" : "659839413",
+    "id" : "502E4EA7",
+    "lastKnownWriteTime" : 1546659883,
+    "last_content_update" : 1546659883127,
     "path" : "~/academic-kickstart/content/home/about.md",
     "project_path" : "content/home/about.md",
     "properties" : {
-        "cursorPosition" : "51,13",
-        "scrollLine" : "23"
+        "cursorPosition" : "49,718",
+        "scrollLine" : "20"
     },
-    "relative_order" : 3,
+    "relative_order" : 5,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"

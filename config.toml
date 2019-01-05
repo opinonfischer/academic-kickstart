@@ -9,7 +9,7 @@
 baseurl = "http://www.oliviapinon.com"
 
 # Title of your site
-title = "Olivia Pinon Fischer"
+title = ""
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -54,28 +54,28 @@ enableGitInfo = false
 
   # Your details.
   name = "Olivia Pinon Fischer"
-  role = "Senior Research Engineer"#<br>"Digital Engineering Division, Chief"
+  role = "Senior Research Engineer"
+  #<br>"Digital Engineering Division, Chief"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Georgia Institute of Technology", url = "www.ae.gatech.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "olivia5.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "olivia.pinon@ae.gatech.edu "
-  address = "Weber Building, Room 113, Georgia Institute of Technology, School of Aerospace Engineering, Atlanta, GA, 30332-0150, U.S.A"
+  #address = "Weber Building, Room 113, Georgia Institute of Technology, School of Aerospace Engineering, Atlanta, GA, 30332-0150, U.S.A"
   office_hours = """
-  Email to book an appointment
   """
   #phone = "888 888 88 88"
   #skype = "echo123"
   #telegram = ""
-  keybase = ""  # Your keybase.io username.
+  #keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
-  appointment_url = ""
+  #appointment_url = ""
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -96,10 +96,10 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
+  map = 3
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "33.773020"
+  longitude = "-84.396587"
   zoom = 15
 
   # SITE SETUP
@@ -108,7 +108,7 @@ enableGitInfo = false
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
   color_theme = "default"
   # Enable users to switch between day and night mode?
-  day_night = true
+  day_night = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -185,7 +185,8 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["blue.css"]
+  #custom_css = [""]
+  custom_css = ["blue.css","navbar.css"]
   custom_js  = []
 
   # Publication types.
