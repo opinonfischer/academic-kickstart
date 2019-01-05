@@ -1,10 +1,10 @@
 +++
-title = "Harmonizing European and American Aviation Modernization Efforts through Visual Analytics"
-date = 2011-09-01T00:00:00
+title = "Towards a Digital Thread-enabled Frameworkforthe Analysis and Design of Intelligent Systems"
+date = 2018-01-12T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["O.J. Pinon", "D.N. Mavris", "E. Garcia"]
+authors = ["D.N. Mavris", "M.G. Balchanos", "O.J. Pinon Fischer", "WJ Sung"]
 
 # Publication type.
 # Legend:
@@ -15,15 +15,15 @@ authors = ["O.J. Pinon", "D.N. Mavris", "E. Garcia"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["2"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Journal of Aircraft, Vol. 48, No.5., pp 1482-1494*"
+publication = "In *Invited Paper in session on “Intelligent Systems in Engineering Design”, 2018 AIAA Aerospace Sciences Meeting, AIAA SciTech Forum, Gaylord Palms, Kissimmee, Florida, January 8-12, 2018, AIAA 2018-1367*"
 publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = ""
-#None.
+# none
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
@@ -42,7 +42,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arc.aiaa.org/doi/pdfplus/10.2514/1.C000271"
+url_pdf = "https://arc.aiaa.org/doi/pdfplus/10.2514/6.2018-1367"
 #url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
 #url_code = "#"
 #url_dataset = "#"
@@ -57,7 +57,7 @@ url_pdf = "https://arc.aiaa.org/doi/pdfplus/10.2514/1.C000271"
 #url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = "10.2514/1.C000271"
+doi = "10.2514/6.2018-1367"
 
 # Does this page contain LaTeX math? (true/false)
 math = true
