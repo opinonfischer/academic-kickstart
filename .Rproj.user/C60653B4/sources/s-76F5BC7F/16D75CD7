@@ -15,7 +15,10 @@
         "cursorPosition" : "27,0",
         "scrollLine" : "0"
     },
-    "relative_order" : 5,
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"

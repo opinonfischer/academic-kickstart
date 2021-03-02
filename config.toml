@@ -15,8 +15,8 @@ title = ""
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2018 Olivia Pinon Fischer"
 
-#theme = "hugo-academic"
-theme = "academic"
+theme = "hugo-academic"
+#theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -62,7 +62,7 @@ enableGitInfo = false
   organizations = [ { name = "Georgia Institute of Technology", url = "www.ae.gatech.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "olivia5.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "OliviaPinonFischer_GeorgiaTech.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "olivia.pinon@ae.gatech.edu "
