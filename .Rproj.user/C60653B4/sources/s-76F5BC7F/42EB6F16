@@ -12,8 +12,8 @@
     "path" : "~/academic-kickstart/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "72,20",
-        "scrollLine" : "57"
+        "cursorPosition" : "72,3",
+        "scrollLine" : "65"
     },
     "read_only" : false,
     "read_only_alternatives" : [
